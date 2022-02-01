@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="InetBankingV1" duration-ms="66392" started-at="2022-01-31T17:36:33 PST" finished-at="2022-01-31T17:37:39 PST">
+    <groups>
+    </groups>
+    <test name="BankingApp Test" duration-ms="66392" started-at="2022-01-31T17:36:33 PST" finished-at="2022-01-31T17:37:39 PST">
+      <class name="com.inetbanking.testCases.TC_LoginTest_001">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_LoginTest_001@38bc8ab5]" name="setup" is-config="true" duration-ms="5288" started-at="2022-01-31T17:36:33 PST" finished-at="2022-01-31T17:36:38 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.inetbanking.testCases.TC_LoginTest_001@38bc8ab5]" name="loginTest" duration-ms="2138" started-at="2022-01-31T17:36:38 PST" finished-at="2022-01-31T17:36:40 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.inetbanking.testCases.TC_LoginTest_001@38bc8ab5]" name="teardown" is-config="true" duration-ms="675" started-at="2022-01-31T17:36:40 PST" finished-at="2022-01-31T17:36:41 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.inetbanking.testCases.TC_LoginTest_001 -->
+      <class name="com.inetbanking.testCases.TC_LoginDDT_002">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_LoginDDT_002@1500955a]" name="setup" is-config="true" duration-ms="3582" started-at="2022-01-31T17:36:41 PST" finished-at="2022-01-31T17:36:44 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="LoginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_LoginDDT_002@1500955a]" name="LoginDDT" duration-ms="10752" started-at="2022-01-31T17:36:46 PST" data-provider="LoginData" finished-at="2022-01-31T17:36:56 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr381993]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[azAdAme]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginDDT -->
+        <test-method status="PASS" signature="LoginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_LoginDDT_002@1500955a]" name="LoginDDT" duration-ms="10489" started-at="2022-01-31T17:36:56 PST" data-provider="LoginData" finished-at="2022-01-31T17:37:07 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr83460]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qAbUzyj]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginDDT -->
+        <test-method status="PASS" signature="LoginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_LoginDDT_002@1500955a]" name="LoginDDT" duration-ms="10536" started-at="2022-01-31T17:37:07 PST" data-provider="LoginData" finished-at="2022-01-31T17:37:17 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr137319]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bAdYvyb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginDDT -->
+        <test-method status="PASS" signature="LoginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_LoginDDT_002@1500955a]" name="LoginDDT" duration-ms="10571" started-at="2022-01-31T17:37:17 PST" data-provider="LoginData" finished-at="2022-01-31T17:37:28 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr381993]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[azAdAme]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginDDT -->
+        <test-method status="PASS" signature="LoginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_LoginDDT_002@1500955a]" name="LoginDDT" duration-ms="10423" started-at="2022-01-31T17:37:28 PST" data-provider="LoginData" finished-at="2022-01-31T17:37:38 PST">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginDDT -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.inetbanking.testCases.TC_LoginDDT_002@1500955a]" name="teardown" is-config="true" duration-ms="650" started-at="2022-01-31T17:37:38 PST" finished-at="2022-01-31T17:37:39 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.inetbanking.testCases.TC_LoginDDT_002 -->
+    </test> <!-- BankingApp Test -->
+  </suite> <!-- InetBankingV1 -->
+</testng-results>
